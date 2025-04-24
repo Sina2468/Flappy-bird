@@ -2,4 +2,4 @@
  Flappy bird game
 
 
-# coming soon :)
+# Enjoy :)

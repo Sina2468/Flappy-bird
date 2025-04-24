@@ -18,3 +18,8 @@ def display_score():
     if setting.start == False:
         show(game_score, (30, 220))
         show(game_high_score, (250, 220))
+
+
+def save_score():
+    with open("save.txt", "w") as save_file:
+        save_file.write(str(setting.high_score))

@@ -6,7 +6,7 @@ from bird_gravity import bird_gravity
 from moving import move_pipe, move_floor
 from default import default
 from collision import check_collision
-from score import display_score
+from score import display_score, save_score
 
 
 pygame.init()
@@ -37,6 +37,7 @@ while setting.running:
         move_floor()
         check_collision()
         display_score()
+        save_score()
 
     else:
         show_start()

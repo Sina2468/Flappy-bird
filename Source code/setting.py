@@ -43,8 +43,6 @@ pipe_sound = mixer.Sound("assets\\sound\\smb_stomp.wav")
 game_font = font.Font("assets\\font\\Flappy.TTF", 40)
 
 
-
-
 running = True
 start = False
 
@@ -52,4 +50,22 @@ gravity = 0.1
 move = 0
 
 score = 0
-high_score = 0
+try:
+    with open("save.txt", "x+") as save_file:
+        high_score = save_file.read()
+
+        if high_score == "":
+            high_score = 0
+
+        else:
+            high_score = int(high_score)
+
+except:
+    with open("save.txt", "r+") as save_file:
+        high_score = save_file.read()
+
+        if high_score == "":
+            high_score = 0
+
+        else:
+            high_score = int(high_score)

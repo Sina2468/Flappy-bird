@@ -1,4 +1,4 @@
-# [Flappy bird](https://github.com/Sina2468/Flappy-bird) . [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](license-link) ![version](https://img.shields.io/badge/Version-1.0-blue.svg) ![Project language](https://img.shields.io/badge/language-Python-green.svg)
+# [Flappy bird](https://github.com/Sina2468/Flappy-bird) . [![GitHub license](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE) ![version](https://img.shields.io/badge/Version-1.0-blue.svg) ![Project language](https://img.shields.io/badge/language-Python-green.svg)
 
 I wrote the flappy bird game in Python (as an exercise)
 
